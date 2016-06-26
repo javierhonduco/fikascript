@@ -4,7 +4,7 @@ PerkeleScript
 PerkeleScript lets you write JavaScript in Finnish; Finally there is a way for Fins to code in their native language!
 It is named after [perkele](https://en.wikipedia.org/wiki/Perkele), the sacred Finnish bad word.
 
-See it in action in your broser
+See it in action in your browser
 ### Including PerkeleScript files in your HTML
 
 - Include [perkelescript.js](dist/perkelescript.js) and [perkelescript.browser.js](dist/perkelescript.browser.js).
