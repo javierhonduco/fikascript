@@ -1,47 +1,47 @@
-[FikaScript](http://fikascript.se)
+PerkeleScript
 ==========
-![Swedish Flag](/assets/img/flag.png)  
-FikaScript lets you write JavaScript in Swedish; Finally there is a way for Swedes to code in their native language!
-It is named after [fika](http://en.wikipedia.org/wiki/Fika_(coffee_break)), the sacred Swedish coffee break.
+![Finnish Flag](/assets/img/fi.png)  
+PerkeleScript lets you write JavaScript in Finnish; Finally there is a way for Fins to code in their native language!
+It is named after [perkele](https://en.wikipedia.org/wiki/Perkele), the sacred Finnish bad word.
 
-See it in action [here](http://fikascript.se). 
-### Including FikaScript files in your HTML
+See it in action in your broser
+### Including PerkeleScript files in your HTML
 
-- Include [fikascript.js](dist/fikascript.js) and [fikascript.browser.js](dist/fikascript.browser.js).
+- Include [perkelescript.js](dist/perkelescript.js) and [perkelescript.browser.js](dist/perkelescript.browser.js).
 - Make sure your html is set to allow utf-8 characters (add `<meta charset="utf-8">` in the <head>).
 
-FikaScript supports the `text/fikascript` MIME type. Any script tag with that type will be compiled and run automatically:
+FikaScript supports the `text/perkelescript` MIME type. Any script tag with that type will be compiled and run automatically:
 ```html
-<script type="text/fikascript">
-  om (x < 5) {
-    konsol.log("hej!");
-  } annars {
-    konsol.log("nej!");
+<script type="text/perkelescript">
+  j (x < 5) {
+    konsoli.log("moi!");
+  } muu {
+    konsoli.log("moi!");
   }
 </script>
 ```
 
 You can also specify a `src` for your script tags: 
 ```html
-<script type="text/fikascript" src="snaps.fika"></script>
+<script type="text/perkelescript" src="snaps.perkelejs"></script>
 ```
 
 #### Optional
 
-##### Convert from FikaScript to JavaScript:
+##### Convert from PerkeleScript to JavaScript:
 
 ```javascript
-FikaScript.swedishToEnglish(code); // returns a string representing the translated code
+PerkeleScript.finnishToEnglish(code); // returns a string representing the translated code
 ```
 
-##### Convert from JavaScript to FikaScript:
+##### Convert from JavaScript to PerkeleScript:
 
 ```javascript
-FikaScript.englishToSwedish(code); // returns a string representing the translated code
+PerkeleScript.englishToFinnish(code); // returns a string representing the translated code
 ```
 
 ### Missing/incorrect translations?
-You can see the translations over [here](https://github.com/pushmatrix/fikascript/blob/gh-pages/dist/fikascript.js#L4). Feel free to submit a pull request!
+You can see the translations over [here](https://github.com/javierhonduco/perkelescript/blob/gh-pages/dist/perkelescript.js#L4). Feel free to submit a pull request!
 
 ###TO-DOs
 - Syntax highlighting for unicode chars
