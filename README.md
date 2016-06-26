@@ -43,7 +43,5 @@ PerkeleScript.englishToFinnish(code); // returns a string representing the trans
 ### Missing/incorrect translations?
 You can see the translations over [here](https://github.com/javierhonduco/perkelescript/blob/gh-pages/dist/perkelescript.js#L4). Feel free to submit a pull request!
 
-###TO-DOs
-- Syntax highlighting for unicode chars
-- npm support for command line compiling
-- Add more translations!!! (ex: Array.pop, push, etc...)
+### Acknowledges
+To the awesome [@pushmatrix](https://github.com/pushmatrix/) for creating the [original project](https://github.com/pushmatrix/fikascript)
