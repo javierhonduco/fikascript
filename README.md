@@ -41,7 +41,7 @@ PerkeleScript.englishToFinnish(code); // returns a string representing the trans
 ```
 
 ### Missing/incorrect translations?
-You can see the translations over [here](https://github.com/pushmatrix/fikascript/blob/gh-pages/dist/fikascript.js#L4). Feel free to submit a pull request!
+You can see the translations over [here](https://github.com/javierhonduco/perkelescript/blob/gh-pages/dist/perkelescript.js#L4). Feel free to submit a pull request!
 
 ###TO-DOs
 - Syntax highlighting for unicode chars
