@@ -1,6 +1,6 @@
 PerkeleScript
 ==========
-![Finnish Flag](/assets/img/flag.png)  
+![Finnish Flag](/assets/img/fi.png)  
 PerkeleScript lets you write JavaScript in Finnish; Finally there is a way for Fins to code in their native language!
 It is named after [perkele](https://en.wikipedia.org/wiki/Perkele), the sacred Finnish bad word.
 
