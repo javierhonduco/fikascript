@@ -25,7 +25,7 @@ PerkeleScript.load = function(url, callback, options) {
   return xhr.send(null);
 };
 
-FikaScript.run = function(code, options) {
+PerkeleScript.run = function(code, options) {
   if (options == null) {
     options = {};
   }
