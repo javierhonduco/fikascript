@@ -1,5 +1,5 @@
 FS = {};
-FikaScript = FS;
+PerkeleScript = FS;
 
 FS.keywords = {
   function: 'toiminto',
