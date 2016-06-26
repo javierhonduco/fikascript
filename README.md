@@ -13,7 +13,7 @@ See it in action in your browser
 FikaScript supports the `text/perkelescript` MIME type. Any script tag with that type will be compiled and run automatically:
 ```html
 <script type="text/perkelescript">
-  j (x < 5) {
+  jos (x < 5) {
     konsoli.log("moi!");
   } muu {
     konsoli.log("moi!");
