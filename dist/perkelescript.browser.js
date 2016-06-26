@@ -1,4 +1,4 @@
-FikaScript.load = function(url, callback, options) {
+PerkeleScript.load = function(url, callback, options) {
   var xhr;
   if (options == null) {
     options = {};
@@ -13,7 +13,7 @@ FikaScript.load = function(url, callback, options) {
     var _ref;
     if (xhr.readyState === 4) {
       if ((_ref = xhr.status) === 0 || _ref === 200) {
-        FikaScript.run(xhr.responseText, options);
+        PerkeleScript.run(xhr.responseText, options);
       } else {
         throw new Error("Could not load " + url);
       }
@@ -40,7 +40,7 @@ if (typeof window === "undefined" || window === null) {
 }
 
 compile = function(code, options) {
-  return FikaScript.swedishToEnglish(code);
+  return PerkeleScript.swedishToEnglish(code);
 }
 
 var runScripts,
@@ -49,7 +49,7 @@ var runScripts,
 runScripts = function() {
   var fikas, fikatypes, execute, index, length, s, scripts;
   scripts = window.document.getElementsByTagName('script');
-  fikatypes = ['text/fikascript'];
+  fikatypes = ['text/perkelescript'];
   fikas = (function() {
     var _i, _len, _ref, _results;
     _results = [];
@@ -69,9 +69,9 @@ runScripts = function() {
     mediatype = script != null ? script.type : void 0;
     if (__indexOf.call(fikatypes, mediatype) >= 0) {
       if (script.src) {
-        return FikaScript.load(script.src, execute, options);
+        return PerkeleScript.load(script.src, execute, options);
       } else {
-        FikaScript.run(script.innerHTML, options);
+        PerkeleScript.run(script.innerHTML, options);
         return execute();
       }
     }
