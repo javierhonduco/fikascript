@@ -2,46 +2,46 @@ FS = {};
 FikaScript = FS;
 
 FS.keywords = {
-  function: 'toiminto',
-        if: 'jos',
-      else: 'muu',
-       for: 'varten',
-     while: 'silläaikaa',
-    return: 'palata',
-        do: 'tehdä',
+  function: 'funktion',
+        if: 'om',
+      else: 'annars',
+       for: 'för',
+     while: 'medan',
+    return: 'returnera',
+        do: 'gör',
        var: 'var',
-        in: 'sisään',
-       let: 'antaa',
-       new: 'uusi',
-       try: 'yrittää',
-      case: 'tapaus',
-      this: 'tämä',
-      with: 'kanssa',
-     break: 'tauko',
-     throw: 'heittää',
-     catch: 'saalis',
-    switch: 'vaihtaa',
-  continue: 'jatkaa',
-  debugger: 'debuggeri',
-instanceof: 'esiintymä',
-    typeof: 'tyyppi',
-      void: 'mitätön',
-    delete: 'poistaa',
-   default: 'oletusarvo',
-   finally: 'vihdoin'
+        in: 'inuti',
+       let: 'låt',
+       new: 'ny',
+       try: 'försök',
+      case: 'fall',
+      this: 'detta',
+      with: 'med',
+     break: 'bryt',
+     throw: 'kasta',
+     catch: 'fånga',
+    switch: 'byt',
+  continue: 'fortsätt',
+  debugger: 'avlusare',
+instanceof: 'instansav',
+    typeof: 'typav',
+      void: 'tom',
+    delete: 'tabort',
+   default: 'standard',
+   finally: 'slutligen'
 };
  
 FS.literals = {
-      true: 'totta',
-     false: 'väärä',
-      null: 'tyhjä'
+      true: 'sant',
+     false: 'falskt',
+      null: 'noll'
 };
  
 FS.identifiers = {
-  document: 'asiakirja',
-  console: 'konsoli',
-  alert:  'hälytys',
-  prompt: 'nopea'
+  document: 'dokument',
+  console: 'konsol',
+  alert:  'ropa',
+  prompt: 'fråga'
 };
 
 function mergeObjects(objects){
